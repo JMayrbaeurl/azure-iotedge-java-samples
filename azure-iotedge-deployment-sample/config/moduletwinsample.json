@@ -1,0 +1,346 @@
+{
+	"deviceId": "jurgenmaEdgeP50",
+	"moduleId": "$edgeAgent",
+	"etag": "AAAAAAAAACk=",
+	"deviceEtag": "NzUzNzAwNjMw",
+	"status": "enabled",
+	"statusUpdateTime": "0001-01-01T00:00:00",
+	"connectionState": "Disconnected",
+	"lastActivityTime": "0001-01-01T00:00:00",
+	"cloudToDeviceMessageCount": 0,
+	"authenticationType": "sas",
+	"x509Thumbprint": {
+		"primaryThumbprint": null,
+		"secondaryThumbprint": null
+	},
+	"version": 255,
+	"properties": {
+		"desired": {
+			"schemaVersion": "1.0",
+			"runtime": {
+				"type": "docker",
+				"settings": {
+					"minDockerVersion": "v1.25",
+					"loggingOptions": "",
+					"registryCredentials": {
+						
+					}
+				}
+			},
+			"systemModules": {
+				"edgeAgent": {
+					"type": "docker",
+					"settings": {
+						"image": "mcr.microsoft.com/azureiotedge-agent:1.0",
+						"createOptions": ""
+					}
+				},
+				"edgeHub": {
+					"type": "docker",
+					"status": "running",
+					"restartPolicy": "always",
+					"settings": {
+						"image": "mcr.microsoft.com/azureiotedge-hub:1.0",
+						"createOptions": "{\"HostConfig\":{\"PortBindings\":{\"8883/tcp\":[{\"HostPort\":\"8883\"}],\"443/tcp\":[{\"HostPort\":\"443\"}]}}}"
+					}
+				}
+			},
+			"modules": {
+				
+			},
+			"$metadata": {
+				"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+				"$lastUpdatedVersion": 41,
+				"schemaVersion": {
+					"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+					"$lastUpdatedVersion": 41
+				},
+				"runtime": {
+					"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+					"$lastUpdatedVersion": 41,
+					"type": {
+						"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+						"$lastUpdatedVersion": 41
+					},
+					"settings": {
+						"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+						"$lastUpdatedVersion": 41,
+						"minDockerVersion": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41
+						},
+						"loggingOptions": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41
+						},
+						"registryCredentials": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41
+						}
+					}
+				},
+				"systemModules": {
+					"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+					"$lastUpdatedVersion": 41,
+					"edgeAgent": {
+						"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+						"$lastUpdatedVersion": 41,
+						"type": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41
+						},
+						"settings": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41,
+							"image": {
+								"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+								"$lastUpdatedVersion": 41
+							},
+							"createOptions": {
+								"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+								"$lastUpdatedVersion": 41
+							}
+						}
+					},
+					"edgeHub": {
+						"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+						"$lastUpdatedVersion": 41,
+						"type": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41
+						},
+						"status": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41
+						},
+						"restartPolicy": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41
+						},
+						"settings": {
+							"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+							"$lastUpdatedVersion": 41,
+							"image": {
+								"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+								"$lastUpdatedVersion": 41
+							},
+							"createOptions": {
+								"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+								"$lastUpdatedVersion": 41
+							}
+						}
+					}
+				},
+				"modules": {
+					"$lastUpdated": "2018-07-27T10:00:40.0484694Z",
+					"$lastUpdatedVersion": 41
+				}
+			},
+			"$version": 41
+		},
+		"reported": {
+			"schemaVersion": "1.0",
+			"version": {
+				"version": "1.0.0",
+				"build": "14487025",
+				"commit": "52ef77db24126bf473265fc09c53d35290a2dd6b"
+			},
+			"lastDesiredStatus": {
+				"code": 406,
+				"description": "Agent is not running"
+			},
+			"runtime": {
+				"platform": {
+					"os": "linux",
+					"architecture": "x86_64"
+				},
+				"type": "docker",
+				"settings": {
+					"minDockerVersion": "v1.25",
+					"loggingOptions": "",
+					"registryCredentials": {
+						
+					}
+				}
+			},
+			"systemModules": {
+				"edgeAgent": {
+					"type": "docker",
+					"exitCode": 0,
+					"statusDescription": "running",
+					"lastStartTimeUtc": "2018-07-26T17:32:59.709707Z",
+					"lastExitTimeUtc": "2018-07-25T09:28:56.2442165Z",
+					"runtimeStatus": "unknown",
+					"settings": {
+						"image": "mcr.microsoft.com/azureiotedge-agent:1.0",
+						"imageHash": "sha256:70c8742d661fac3ccd64cf4b34214d36fd5b0360e040e10c1359e560a100e3f8",
+						"createOptions": "{}"
+					}
+				},
+				"edgeHub": {
+					"type": "docker",
+					"status": "running",
+					"restartPolicy": "always",
+					"exitCode": 0,
+					"statusDescription": "running",
+					"lastStartTimeUtc": "2018-07-26T17:33:06.585096Z",
+					"lastExitTimeUtc": "2018-07-25T09:28:55.3037925Z",
+					"restartCount": 0,
+					"lastRestartTimeUtc": "2018-07-25T09:28:55.3037925Z",
+					"runtimeStatus": "unknown",
+					"settings": {
+						"image": "mcr.microsoft.com/azureiotedge-hub:1.0",
+						"imageHash": "sha256:1654224a8468ae862853bed1e8a7493e6008d81878b682a3af871c8ac185dc0e",
+						"createOptions": "{\"HostConfig\":{\"PortBindings\":{\"8883/tcp\":[{\"HostPort\":\"8883\"}],\"443/tcp\":[{\"HostPort\":\"443\"}]}}}"
+					}
+				}
+			},
+			"lastDesiredVersion": 40,
+			"modules": {
+				
+			},
+			"$metadata": {
+				"$lastUpdated": "2018-07-26T21:03:56.620699Z",
+				"schemaVersion": {
+					"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+				},
+				"version": {
+					"$lastUpdated": "2018-07-08T12:00:42.8249965Z",
+					"version": {
+						"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+					},
+					"build": {
+						"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+					},
+					"commit": {
+						"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+					}
+				},
+				"lastDesiredStatus": {
+					"$lastUpdated": "2018-07-26T21:03:56.620699Z",
+					"code": {
+						"$lastUpdated": "2018-07-26T21:03:56.620699Z"
+					},
+					"description": {
+						"$lastUpdated": "2018-07-26T21:03:56.620699Z"
+					}
+				},
+				"runtime": {
+					"$lastUpdated": "2018-07-08T12:02:54.2919026Z",
+					"platform": {
+						"$lastUpdated": "2018-07-08T12:00:42.8249965Z",
+						"os": {
+							"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+						},
+						"architecture": {
+							"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+						}
+					},
+					"type": {
+						"$lastUpdated": "2018-07-08T12:02:54.2919026Z"
+					},
+					"settings": {
+						"$lastUpdated": "2018-07-08T12:02:54.2919026Z",
+						"minDockerVersion": {
+							"$lastUpdated": "2018-07-08T12:02:54.2919026Z"
+						},
+						"loggingOptions": {
+							"$lastUpdated": "2018-07-08T12:02:54.2919026Z"
+						},
+						"registryCredentials": {
+							"$lastUpdated": "2018-07-08T12:02:54.2919026Z"
+						}
+					}
+				},
+				"systemModules": {
+					"$lastUpdated": "2018-07-26T21:03:56.620699Z",
+					"edgeAgent": {
+						"$lastUpdated": "2018-07-26T21:03:56.620699Z",
+						"type": {
+							"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+						},
+						"exitCode": {
+							"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+						},
+						"statusDescription": {
+							"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+						},
+						"lastStartTimeUtc": {
+							"$lastUpdated": "2018-07-26T17:33:06.784761Z"
+						},
+						"lastExitTimeUtc": {
+							"$lastUpdated": "2018-07-26T17:33:06.784761Z"
+						},
+						"runtimeStatus": {
+							"$lastUpdated": "2018-07-26T21:03:56.620699Z"
+						},
+						"settings": {
+							"$lastUpdated": "2018-07-26T17:33:06.784761Z",
+							"image": {
+								"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+							},
+							"imageHash": {
+								"$lastUpdated": "2018-07-26T17:33:06.784761Z"
+							},
+							"createOptions": {
+								"$lastUpdated": "2018-07-08T12:00:42.8249965Z"
+							}
+						}
+					},
+					"edgeHub": {
+						"$lastUpdated": "2018-07-26T21:03:56.620699Z",
+						"type": {
+							"$lastUpdated": "2018-07-24T09:34:32.1451645Z"
+						},
+						"status": {
+							"$lastUpdated": "2018-07-24T09:34:32.1451645Z"
+						},
+						"restartPolicy": {
+							"$lastUpdated": "2018-07-24T09:34:32.1451645Z"
+						},
+						"exitCode": {
+							"$lastUpdated": "2018-07-26T17:33:12.0830164Z"
+						},
+						"statusDescription": {
+							"$lastUpdated": "2018-07-26T17:33:12.0830164Z"
+						},
+						"lastStartTimeUtc": {
+							"$lastUpdated": "2018-07-26T17:33:12.0830164Z"
+						},
+						"lastExitTimeUtc": {
+							"$lastUpdated": "2018-07-26T17:33:06.784761Z"
+						},
+						"restartCount": {
+							"$lastUpdated": "2018-07-26T17:33:17.3728079Z"
+						},
+						"lastRestartTimeUtc": {
+							"$lastUpdated": "2018-07-26T17:33:17.3728079Z"
+						},
+						"runtimeStatus": {
+							"$lastUpdated": "2018-07-26T21:03:56.620699Z"
+						},
+						"settings": {
+							"$lastUpdated": "2018-07-26T17:33:06.784761Z",
+							"image": {
+								"$lastUpdated": "2018-07-24T09:34:32.1451645Z"
+							},
+							"imageHash": {
+								"$lastUpdated": "2018-07-26T17:33:06.784761Z"
+							},
+							"createOptions": {
+								"$lastUpdated": "2018-07-24T09:34:32.1451645Z"
+							}
+						}
+					}
+				},
+				"lastDesiredVersion": {
+					"$lastUpdated": "2018-07-26T19:07:00.8242617Z"
+				},
+				"modules": {
+					"$lastUpdated": "2018-07-26T19:07:06.0820387Z"
+				}
+			},
+			"$version": 214
+		}
+	}
+}
